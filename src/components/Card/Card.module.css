@@ -1,0 +1,61 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: #f4eded;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+  width: 300px;
+  height: 450px;
+  margin: 16px;
+}
+
+.card__name {
+  font-weight: 600;
+  color: #FFF;
+  background: #575f60be;
+  padding: 0 .3rem;
+  border-radius: 5px;
+  margin: 16px;
+  font-size: 24px;  
+}
+
+.buttonContainer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.card__Button {
+  color: #FFF;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin: .4rem;
+  background: #ca0303;
+  cursor: pointer;
+}
+
+.card__species, .card__gender {
+  font-weight: 600;
+  color: #131212;
+  font-size: 14px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  padding: 0 .6rem;
+}
+
+.card__img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.link{
+  color: aliceblue;
+  text-decoration: none;
+}
